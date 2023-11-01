@@ -1,10 +1,8 @@
-import sys
-import tkinter
-
-print('hello')
-
-for i in range(10):
-    lst = []
-    lst.append('67')
-    
+class ItSpecialist():
+    def __init__(self, name, speciality, salary) -> None:
+        self.name = name
+        self.speciality = speciality
+        self.salary = salary
+        
+john = ItSpecialist('Jon', 'DE', 150)        
         
